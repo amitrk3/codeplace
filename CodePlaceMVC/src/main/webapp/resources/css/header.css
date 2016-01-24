@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+.navigationLinks a {
+	color: white;
+	background-color: #3976e8;
+	border: medium;
+	border-radius: 2px;
+	border-color: white;
+	padding: 5px;
+	text-decoration: none;
+	margin: 5px;
+	position:relative;	
+	display:block;
+	float:left;
+	transition: linear 0.2s;
+	line-height: 15px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+	background:-webkit-linear-gradient(top, #6495ED 0%,#3976e8 100%);
+	z-index: 1;
+	
+}
+
+.navigationLinks {
+	float: right;
+    position: absolute;
+    margin: 50px;
+    right: 20px;  
+    text-align:bottom;  
+}
+
+.navigationLinks a:hover {
+	background-color: #fd7135;
+	background:-webkit-linear-gradient(top, #ea4702 0%,#fd7135 100%);
+	 transform:translateY(-4px);
+	 z-index: 2;
+}
+
+.logo img {
+	max-height: 100% ;
+    margin-left: 80px;
+}
+
+@-webkit-keyframes "jump" {
+ 0% {
+    top: 0;
+ }
+ 100% {
+    top: -10px;
+ } 
+
+}
+
